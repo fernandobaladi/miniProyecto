@@ -202,5 +202,24 @@ body {
   margin: 40px; 
 }
 
+.contenedor_bajo{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.habilidad{
+  margin: 30px;
+  width: 15%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(2, 0, 100, 0.5);
+  border-radius: 15px;
+  padding: 0 32px;
+}
 
 
