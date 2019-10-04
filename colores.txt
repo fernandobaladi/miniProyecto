@@ -1,0 +1,4 @@
+colores:
+#0d35b4
+#1e0e3d
+#298eec
