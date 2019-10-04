@@ -100,8 +100,8 @@ body {
     
 }
 .proyecto_columna{
-    margin: 30px;
-    width: 24%;
+  margin: 30px;
+  width: 24%;
   text-align: center;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -110,4 +110,97 @@ body {
   border-radius: 24px;
   padding: 0 32px;
 }
+
+#cerca{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+
+.modal_contenido {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal_contenido, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+.cerrar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.general{
+  display: flex;
+  justify-content: space-between;
+}
+
+.acerca_de_mi{
+  margin: 40px;
+  width: 60%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #298eec;
+  box-shadow: 0px 90px 160px 0px rgba(2, 0, 100, 0.5);
+  border-radius: 24px;
+  padding: 0 32px;
+  
+
+}
+ 
+#hermoso{
+  border-radius: 24px;
+}
+.mi_imagen{
+  margin: 40px; 
+}
+
+
 
